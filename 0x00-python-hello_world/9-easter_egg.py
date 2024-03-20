@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
-print('“The Zen of Python”, by TimPeters\n')
-
 import this
+
+TheZenofPythonbyTimPeter = this
+
+print(TheZenofPythonbyTimPeter)
