@@ -3,4 +3,4 @@
 alphabet = ['abcdefghiklmnopqrstuvwxyz']
 
 for i in alphabet:
-    print(f"{i.lower()}", end="")
+    print("{}".format(i), end="")
