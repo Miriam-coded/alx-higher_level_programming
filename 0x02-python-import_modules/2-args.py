@@ -9,10 +9,10 @@ if __name__ == "__main__":
     if args == 0:
         print("{} arguments.".format(args))
     elif args == 1:
-        print("{} argument :".format(args))
-        print("{} : {}".format(index, argv[index]))
+        print("{} argument:".format(args))
+        print("{}: {}".format(index, argv[index]))
     else:
-        print("{} arguments :".format(args))
+        print("{} arguments:".format(args))
         while index <= args:
-            print("{} : {}".format(index, argv[index]))
+            print("{}: {}".format(index, argv[index]))
             index += 1
