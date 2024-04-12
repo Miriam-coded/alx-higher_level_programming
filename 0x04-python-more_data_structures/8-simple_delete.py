@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 def simple_delete(a_dictionary, key=""):
+    """A function tha deletes a key in a dictionary"""
     if a_dictionary is None:
         return None
 
