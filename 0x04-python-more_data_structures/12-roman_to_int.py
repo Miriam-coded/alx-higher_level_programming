@@ -2,7 +2,6 @@
 def roman_to_int(roman_string):
     if roman_string is None or not isinstance(roman_string,str):
         return 0
-
     rom_int = {
             'I': 1,
             'V': 5,
@@ -14,10 +13,8 @@ def roman_to_int(roman_string):
             }
     total = 0
     prev_num = 0
-
     for ch in reversed(roman_string):
         num = rom_int.get(ch)
-
         if not num:
             return 0
         if num < prev_num:
@@ -25,6 +22,4 @@ def roman_to_int(roman_string):
         else:
             total += num
         prev_num = num
-
     return total
-
